@@ -1,0 +1,12 @@
+[
+  {
+    "products": ["Blackberry","Nokia Edge"],
+    "process": "Checkout",
+    "location": "India"
+  },
+  {
+    "products": ["Samsung Note 8", "iphone X"],
+    "process": "Continue",
+    "location": "United States of America"
+  }
+]

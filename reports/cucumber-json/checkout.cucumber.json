@@ -1,0 +1,297 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Checkout Feature",
+    "line": 1,
+    "id": "checkout-feature",
+    "tags": [],
+    "uri": "checkout.feature",
+    "elements": [
+      {
+        "id": "checkout-feature;checkout-process---uninterrupted",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Checkout Process - Uninterrupted",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 6
+          },
+          {
+            "name": "@Regression",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Product Page",
+            "result": {
+              "status": "passed",
+              "duration": 4409000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "products"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Blackberry"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nokia Edge"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I Add all Products to the cart with",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the Checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am in the cart i need to verify prices and totals",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "products"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Blackberry"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nokia Edge"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click the Confirm button depending on the process \"checkout\"",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I enter my country location \"India\"",
+            "result": {
+              "status": "passed",
+              "duration": 5224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I check on the checkbox for terms and conditions",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on the Purchase button",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I need to verify the order was successful",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-feature;checkout-process---interrupted",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Checkout Process - Interrupted",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Product Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "products"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Samsung Note 8"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "iphone X"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I Add all Products to the cart with",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I click the Checkout button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I am in the cart i need to verify prices and totals",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "products"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Samsung Note 8"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "iphone X"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I click the Confirm button depending on the process \"continue\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I enter my country location \"United States of America\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I check on the checkbox for terms and conditions",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I click on the Purchase button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I need to verify the order was successful",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

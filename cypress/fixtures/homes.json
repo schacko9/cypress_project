@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Slomo Chacko",
+        "email": "slomochacko0@gmail.com",
+        "password": "chacko1",
+        "gender": "Female",
+        "employment": "Student",
+        "dob": "1998-06-10"
+    },
+    {
+        "name": "Chacko Slomo",
+        "email": "slomochacko@gmail.com",
+        "password": "chacko2",
+        "gender": "Male",
+        "employment": "Employed",
+        "dob": "2008-06-10"
+    }
+]

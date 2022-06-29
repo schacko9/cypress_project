@@ -1,0 +1,121 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Product Feature",
+    "line": 1,
+    "id": "product-feature",
+    "tags": [],
+    "uri": "product.feature",
+    "elements": [
+      {
+        "id": "product-feature;verify-product-page-links",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify Product Page Links",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 4
+          },
+          {
+            "name": "@Regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Product Page",
+            "result": {
+              "status": "passed",
+              "duration": 2557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I open Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I open Product Page",
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I open Category Page",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I open Product Page",
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "products"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Blackberry"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nokia Edge"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Samsung Note 8"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "iphone X"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Add all Products to the cart with",
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

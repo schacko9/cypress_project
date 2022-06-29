@@ -1,0 +1,34 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "Cypress Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "html": "node cucumber-html-report.js",
+    "Regression": "cypress-tags run -e TAGS='@Regression' --record --key 4ddea5a2-0c7c-4ee5-8301-2f5822c72334 --reporter mochawesome",
+    "Smoke":      "cypress-tags run -e TAGS='@Smoke' --record --key 4ddea5a2-0c7c-4ee5-8301-2f5822c72334 --reporter mochawesome"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Slomo Chacko",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-sql-server": "^1.0.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "multiple-cucumber-html-reporter": "^1.21.4",
+    "neat-csv": "^7.0.0"
+  }
+}

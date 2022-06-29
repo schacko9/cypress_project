@@ -1,0 +1,230 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Home Feature",
+    "line": 1,
+    "id": "home-feature",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "home-feature;form-submission",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Form Submission",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 6
+          },
+          {
+            "name": "@Regression",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 2509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I fill in Name with \"Slomo Chacko\"",
+            "result": {
+              "status": "passed",
+              "duration": 546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I fill in Email with \"slomochacko0@gmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I fill in Password with \"chacko1\"",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I check the checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I fill in Gender with \"Female\"",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I fill in Employement Status with \"Student\"",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I fill in Date of Birth with \"1998-06-10\"",
+            "result": {
+              "status": "passed",
+              "duration": 417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on the Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 280000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-feature;form-submission",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Form Submission",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 6
+          },
+          {
+            "name": "@Regression",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I fill in Name with \"Chacko Slomo\"",
+            "result": {
+              "status": "passed",
+              "duration": 435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I fill in Email with \"slomochacko@gmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I fill in Password with \"chacko2\"",
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I check the checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I fill in Gender with \"Male\"",
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I fill in Employement Status with \"Employed\"",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I fill in Date of Birth with \"2008-06-10\"",
+            "result": {
+              "status": "passed",
+              "duration": 363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on the Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
